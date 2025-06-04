@@ -1,0 +1,336 @@
+body {
+    margin: 0 auto; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'B612 Mono', monospace;
+    background-color: white;
+    width: 100%;
+    max-width: 1440x;
+    color: red;
+}
+
+header{
+    margin-bottom: 188px;
+}
+
+section.encabezado{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+div.header-izquierda{
+    display: flex;
+    gap: 20px;
+}
+
+h1{
+    margin: 80px 0px 188px;
+    font-family: 'Italianno', cursive;
+    font-size: 96px;
+    text-align: center;
+    position:sticky; 
+    top: 0;
+}
+
+nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+    padding: 0 20px;
+    
+}
+
+a, a :visited{
+    color: red;
+    text-decoration: none;
+}
+    
+
+a:hover{
+    text-decoration: underline;
+}
+
+span{
+    box-sizing: border-box;
+    width: 144px;
+    display: flex;
+    flex-direction: column;
+}
+
+label.sub-pan{
+    display: none;
+}
+
+#pan:checked ~ label.sub-pan{
+  display: block;
+}
+
+label.sub-sub-pan{
+    display: none;
+}
+
+#sub-pan:checked ~ label.sub-sub-pan{
+  display: block;
+}
+
+label.sub-tomate{
+    display: none;
+}
+
+#tomate:checked ~ label.sub-tomate{
+  display: block;
+}
+
+label.sub-sub-tomate{
+    display: none;
+}
+
+#sub-tomate:checked ~ label.sub-sub-tomate{
+  display: block;
+}
+
+label.sub-aceite{
+    display: none;
+}
+
+#aceite:checked ~ label.sub-aceite{
+  display: block;
+}
+
+label.sub-sub-aceite{
+    display: none;
+}
+
+#sub-aceite:checked ~ label.sub-sub-aceite{
+  display: block;
+}
+
+label.sub-sal{
+    display: none;
+}
+
+#sal:checked ~ label.sub-sal{
+  display: block;
+}
+
+label.sub-tostado{
+    display: none;
+}
+
+#tostado:checked ~ label.sub-tostado{
+  display: block;
+}
+
+label.sub-sub-tostado{
+    display: none;
+}
+
+#sub-tostado:checked ~ label.sub-sub-tostado{
+  display: block;
+}
+
+label.sub-longitud{
+    display: none;
+}
+
+#longitud:checked ~ label.sub-longitud{
+  display: block;
+}
+
+label.sub-precio{
+    display: none;
+}
+
+#precio:checked ~ label.sub-precio{
+  display: block;
+}
+
+label.sub-zona{
+    display: none;
+}
+
+#zona:checked ~ label.sub-zona{
+  display: block;
+}
+
+main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 188px;
+    max-width: 1200px;
+    padding: 20px;
+    margin-top: 188px;
+}
+
+article.fila{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+div.casilla{
+    justify-content: center;
+    position: relative;
+}
+
+img.tostada{
+    justify-self: center;
+    position: absolute;
+    bottom: 90px;
+}
+
+article p{
+    text-align: right;
+    justify-self: right;
+}
+
+p{
+    box-sizing: border-box;
+    font-size: 14px;
+    color: red;
+    width: 120px;
+}
+
+footer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    margin: 376px 0px 0px 0px;
+    padding-left: 20px;
+    height: 47px;
+    width: 1440px;
+    gap: 20px;
+    align-items: center;
+}
+
+div.footer{
+    color: white;
+    min-width: 336px;
+}
+
+footer a, footer a:visited{
+       color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline; 
+}
+
+
+main.click{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 1200px;
+    padding:20px;
+    gap: 20px;
+
+}
+
+a.orden-c, a.orden-c:visited{
+    font-family: 'Italianno', cursive;
+    font-size: 20px;
+}
+
+section.descripción{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 0px;
+    gap: 20px;
+}
+
+section.descripción p{
+    text-align: left;
+}
+
+div.descripción-1 p{
+    text-decoration: underline;
+}
+
+section.fotitos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    max-width: 832px;
+    gap: 20px;
+}
+
+div.vista{
+    width: 396px;
+    height: 396px;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+div.columna-dcha{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:20px;
+    width: 436px;
+    flex: 0 0 auto;
+}
+
+div.alzado, div.perfil, div.planta{
+    box-sizing: border-box;
+    width: 208px;
+    height: 208px;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+div.perfil, div.alzado{
+    position: relative;
+}
+
+img.perfil-2{
+    opacity: 0;
+    position:absolute;
+    width: 360px;
+    top: 20px;
+    right: 465px;
+    background-color: #EBEBEB;
+    pointer-events: none;
+}
+
+img.perfil-1:hover + img.perfil-2 {
+    opacity: 1;
+}
+
+img.alzado-1:hover + img.alzado-2{
+    opacity: 1;
+}
+
+img.alzado-2{
+    opacity: 0;
+    position:absolute;
+    width: 360px;
+    top: -210px;
+    right: 230px;
+    background-color: #EBEBEB;
+    pointer-events: none;
+    
+}
+
+
